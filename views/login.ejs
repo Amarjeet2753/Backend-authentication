@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- <h1>hello</h1> -->
+    <!-- <p>Name <%=  locals.name %></p>
+     -->
+
+     <main>
+        <h2>Login</h2>
+        <form method="post" action="login">
+            <input type="email" name="email" id="" placeholder="email" value="<%= locals.email %>">
+            <input type="password" name="password" id="" placeholder="password">
+            <p class="error"><%= locals.message  %></p>
+            <button type="submit">Login</button>
+        </form>
+     </main>
+    
+</body>
+</html>

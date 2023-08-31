@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: auto;
+    margin:  100px auto;
+    padding: 40px;
+    border: 2px solid black;
+    align-items: center;
+}
+
+input, button {
+    display: block;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    /* border: 1px gray; */
+}
+
+input:focus {
+    outline: none; /* Removes the default focus outline */
+    border: 1px solid rgb(185, 175, 175);  /* Removes the border */
+  }
+
+button{
+    align-items: center;
+    border-radius: 8px;
+    background-color: rgb(41, 102, 245);
+    color: white;
+    border: none;
+    margin: auto;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.error{
+    color: rgb(200, 79, 79);
+}
